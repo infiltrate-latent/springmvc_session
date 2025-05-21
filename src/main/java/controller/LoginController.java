@@ -10,12 +10,10 @@ import entity.User;
 import entity.Dog;
 import java.util.Map;
 import org.springframework.web.bind.annotation.RequestBody;
-
 @Controller  
 //@SessionAttributes({"user","uname"})
 //@SessionAttributes({"user","uname"})
-public class LoginController {  
-
+public class LoginController {
 	/*@ModelAttribute
 	public void getUser(Map<String,User> map)
 	{

@@ -9,10 +9,12 @@
 <body>
  <h1>${sessionScope.user.uname }so hot!!!</h1>
   <h1>${sessionScope.user.pwd }so hot!!!</h1>
- <h1>requestScope${requestScope.dog.name }so hot!!!</h1>
- <h1>requestScope${requestScope.dog.age }so hot!!!</h1>
- <h1>user1.uname ${requestScope.user.uname }so hot!!!</h1>
- <h1>user1.uname ${requestScope.user.uname }so hot!!!</h1>
+ <h1>requestScope${requestScope.dog1.name }so hot!!!</h1>
+ <h1>requestScope${requestScope.dog1.age }so hot!!!</h1>
+ <h1>user1.uname ${requestScope.myuser.uname }so hot!!!</h1>
+ <h1>user1.uname ${requestScope.myuser.pwd}so hot!!!</h1>
+ <h1>user.uname ${requestScope.user.uname }so hot!!!</h1>
+ <h1>user.pwd ${requestScope.user.pwd}so hot!!!</h1>
  <h1>user1.uname ${sessionScope.user1.uname }so hot!!!</h1>
  <h1>user1.uname ${requestScope.user1.uname }so hot!!!</h1>
   <h1>user1.pwd ${requestScope.user1.pwd }so hot!!!</h1>

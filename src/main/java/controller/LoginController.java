@@ -41,7 +41,7 @@ public class LoginController {
 	{
 		Dog dog= new Dog();
 		dog.setAge(18);
-		dog.setName("aa");
+		dog.setName("bb");
 		return  dog;
 	}
 
